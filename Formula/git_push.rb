@@ -6,11 +6,11 @@ class GitPush < Formula
     license "MIT"
   
     def install
-        bin.install "gitPush-darwin-amd64" => "git-push"
+        bin.install "gitPush-darwin-amd64" => "gitPush"
     end
     
     test do
-        system "#{bin}/git-push", "--version"
+        system "#{bin}/gitPush", "--version"
     end
   end
   
