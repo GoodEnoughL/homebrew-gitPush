@@ -1,4 +1,4 @@
-class GitPush < Formula
+class Gitpush < Formula
     desc "A helpful git push tool" 
     homepage "https://github.com/GoodEnoughL/gitPush"
     url "https://github.com/GoodEnoughL/gitPush/releases/download/v1.0.0/gitPush-darwin-amd64"
@@ -6,11 +6,11 @@ class GitPush < Formula
     license "MIT"
   
     def install
-        bin.install "gitPush-darwin-amd64" => "gitPush"
+        bin.install "gitPush-darwin-amd64" => "gitpush"
     end
     
     test do
-        system "#{bin}/gitPush", "--version"
+        system "#{bin}/gitpush", "--version"
     end
   end
   
