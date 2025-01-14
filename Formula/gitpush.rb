@@ -2,7 +2,7 @@ class Gitpush < Formula
     desc "A helpful git push tool" 
     homepage "https://github.com/GoodEnoughL/gitPush"
     url "https://github.com/GoodEnoughL/gitPush/releases/download/v1.0.0/gitPush-darwin-amd64"
-    sha256 "87dfcba270c6f6a1a7742f2e00c0581b01ba7042e5f1525408bcd2823a858c9f"
+    sha256 "e044641084fc8a3c009105c0bd1255e352a5eaa8576a5fdaee5880bd73d5b7f0"
     license "MIT"
   
     def install
